@@ -7,7 +7,7 @@ self.addEventListener('install', function (event) {
       caches.open(staticAssetsCacheName).then(function (cache) {
         cache.addAll([
             '/',
-            "about.18154585d6713f2bdc5b.css","assets/logo-grey.png","chunks/about.7ac3402668185e253734.js","chunks/codehelp.d41d8cd98f00b204e980.js","chunks/contact.d41d8cd98f00b204e980.js","chunks/home.213318741d4042c93aa0.js","chunks/resume.67518a1367904c6084e4.js","home.5203231bb098ea5dc981.css","index.html","main.87ea3666b26d0bec9b31.css","main.aaa17d339d371efbda93.js","resume.0e4338761429b4eb16ac.css"
+            "about.18154585d6713f2bdc5b.css","assets/logo-grey.png","chunks/about.7ac3402668185e253734.js","chunks/codehelp.f0b242d776860e29ccc1.js","chunks/contact.d41d8cd98f00b204e980.js","chunks/home.213318741d4042c93aa0.js","chunks/resume.67518a1367904c6084e4.js","home.5203231bb098ea5dc981.css","index.html","main.87ea3666b26d0bec9b31.css","main.aaa17d339d371efbda93.js","resume.0e4338761429b4eb16ac.css"
         ]
         );
       }).catch((error) => {
